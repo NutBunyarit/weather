@@ -42,7 +42,7 @@ function App() {
   return (
     <div className=" container max-w-xl gap-2 mx-auto flex flex-col justify-center h-screen ">
       <div className="border shadow-md rounded-lg p-10">
-        <h1 className=" text-center text-2xl">Weather App</h1>
+        <h1 className=" text-center text-2xl">TEMP ZONE</h1>
         <br />
         <div className="flex flex-col gap-2">
           <Input placeholder="Enter city default Thailand" onValueChange={setCity} />
